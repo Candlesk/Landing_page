@@ -1,0 +1,87 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.body{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    width: 100%;
+    padding: 20px 40px;
+    background: lightslategray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 900px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.navbar a{
+    font-size: 20px;
+    font-weight: 900px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Pics/cyberbg.jpg") ;
+    padding: 25px;
+    border: 2px;
+    border-color: black;
+    border-width: 3px;
+
+}
+.image{
+    display: flex;
+    justify-content: flex-end;
+    width: 600px;
+    height: 600px;
+    margin-left: 80px;
+    border-radius: 6px;
+    border: 10px solid;
+}
+
+.container{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    border: 5px solid rgb(43, 3, 117);
+    border-radius: 8px;
+    padding: 25px 20px;
+    margin: 25px 20px;;
+    
+
+    background: rgb(104, 104, 104);
+    
+}
+
+.ltext{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    font-weight: 900px;
+}
+
+.stext{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: 100px;
+}
