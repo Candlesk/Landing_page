@@ -14,10 +14,11 @@
 .header {
     width: 100%;
     padding: 20px 40px;
-    background: lightslategray;
+    background: rgb(20, 1, 63);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    opacity: 90%;
 
 }
 
@@ -71,6 +72,7 @@
     
 
     background: rgb(104, 104, 104);
+    opacity: 90%;
     
 }
 
@@ -84,4 +86,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     font-weight: 100px;
+}
+
+.picsection{
+
+    display: flex;
 }
